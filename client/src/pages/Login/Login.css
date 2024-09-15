@@ -1,0 +1,39 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85vh;
+    margin-top: 2rem;
+}
+.registration h1{
+    margin-bottom: 1rem;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.input-fields p {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+input,button{
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+input{
+    width: 400px;
+}
+
+button{
+    background: blue;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 100px;
+}

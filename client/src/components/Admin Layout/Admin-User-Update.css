@@ -1,0 +1,11 @@
+.form-user-update{
+    margin: 4rem;
+}
+
+.form-user-update span{
+    text-decoration: underline;
+}
+
+.form-user-update button {
+    margin-top: 1.5rem;
+}

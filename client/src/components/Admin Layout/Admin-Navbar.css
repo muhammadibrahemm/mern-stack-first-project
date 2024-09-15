@@ -1,0 +1,33 @@
+/* adminNavbar.css */
+.ul-admin {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 120px;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-admin li{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #555;
+}
+
+.ul-admin li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.ul-admin li:hover {
+    background-color: #575757;
+    cursor: pointer;
+    text-decoration: underline;
+}
